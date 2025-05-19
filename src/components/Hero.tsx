@@ -76,9 +76,12 @@ const Hero: React.FC = () => {
           
           <div className="order-1 md:order-2 flex justify-center relative">
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-blue-100 dark:bg-blue-900/20 flex items-center justify-center relative overflow-hidden shadow-xl">
-              {/* Profile image would go here */}
-              <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-blue-500/20 to-purple-500/20 animate-pulse"></div>
-              <div className="absolute inset-0 flex items-center justify-center text-5xl font-bold text-blue-500">YN</div>
+              <img 
+                src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg"
+                alt="Profile"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-blue-500/20 to-purple-500/20 mix-blend-overlay"></div>
             </div>
             
             <div className="absolute h-full w-full">
