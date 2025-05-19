@@ -33,11 +33,11 @@ const Hero: React.FC = () => {
                   Hello, I'm
                 </h2>
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  <span className="block">Your Name</span>
+                  <span className="block">Shivansh Maurya</span>
                   <span className="block mt-1 text-blue-600 dark:text-blue-400">
                     <span className="inline-block mr-3 relative overflow-hidden">
                       <span className="animate-typewriter inline-block relative after:content-['|'] after:ml-1 after:animate-cursor">
-                        Developer
+                        Web and Mobile Developer
                       </span>
                     </span>
                   </span>
@@ -77,7 +77,7 @@ const Hero: React.FC = () => {
           <div className="order-1 md:order-2 flex justify-center relative">
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-blue-100 dark:bg-blue-900/20 flex items-center justify-center relative overflow-hidden shadow-xl">
               <img 
-                src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg"
+                src="https://res.cloudinary.com/dvcwzd8ri/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1747650885/WhatsApp_Image_2025-05-17_at_11.33.57_bd8e5379_qwv60b.jpg"
                 alt="Profile"
                 className="w-full h-full object-cover"
               />
