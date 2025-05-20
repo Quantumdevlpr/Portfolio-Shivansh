@@ -139,7 +139,7 @@ const Projects: React.FC = () => {
           
           <div className="text-center mt-16">
             <a 
-              href="https://github.com/yourusername" 
+              href="https://github.com/Quantumdevlpr" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 border border-blue-600 text-blue-600 dark:text-blue-400 dark:border-blue-400 rounded-md font-medium transition-all duration-300 hover:bg-blue-50 dark:hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"

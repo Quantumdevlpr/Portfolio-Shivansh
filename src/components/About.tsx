@@ -46,7 +46,7 @@ const About: React.FC = () => {
               
               <div className="pt-4">
                 <a 
-                  href="/resume.pdf" 
+                  href="https://console.cloudinary.com/console/c-f3d7772b800bdc640b61ae5b3befdc/media_library/asset/0aa52312f53f3a865315f41d92e9017f/manage" 
                   className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-md font-medium transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -64,13 +64,13 @@ const About: React.FC = () => {
                 </div>
                 
                 <div className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-md transform transition-transform hover:scale-105">
-                  <h4 className="font-bold text-xl mb-2">5+</h4>
+                  <h4 className="font-bold text-xl mb-2">2+</h4>
                   <p className="text-gray-600 dark:text-gray-400">Years of Experience</p>
                 </div>
                 
                 <div className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-md transform transition-transform hover:scale-105">
                   <h4 className="font-bold text-xl mb-2">8+</h4>
-                  <p className="text-gray-600 dark:text-gray-400">Happy Clients</p>
+                  <p className="text-gray-600 dark:text-gray-400">Certifications</p>
                 </div>
                 
                 <div className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-md transform transition-transform hover:scale-105">

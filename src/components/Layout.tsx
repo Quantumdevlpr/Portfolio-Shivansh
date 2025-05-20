@@ -52,7 +52,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               handleNavClick('home');
             }}
           >
-            <span className="inline-block transform transition-transform duration-300 group-hover:-translate-y-full">YourName</span>
+           <span className="inline-block transition-transform duration-700 ease-in-out transform group-hover:translate-x-full">Shivansh Maurya </span>
             <span className="absolute left-0 -bottom-full transform transition-transform duration-300 group-hover:translate-y-full text-blue-500 dark:text-blue-400">Portfolio</span>
           </a>
           
@@ -107,7 +107,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 handleNavClick('home');
               }}
             >
-              YourName
+              Shivansh Maurya
             </a>
             <button 
               onClick={toggleMenu}
@@ -139,13 +139,13 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           
           <div className="mt-8 pt-8 border-t border-gray-200 dark:border-gray-700">
             <div className="flex space-x-6 justify-center">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-500 dark:text-gray-400 dark:hover:text-blue-400 transition-colors">
+              <a href="https://github.com/Quantumdevlpr" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-500 dark:text-gray-400 dark:hover:text-blue-400 transition-colors">
                 <Github size={22} />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-500 dark:text-gray-400 dark:hover:text-blue-400 transition-colors">
+              <a href="https://www.linkedin.com/in/shivansh-maurya-a79128220/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-500 dark:text-gray-400 dark:hover:text-blue-400 transition-colors">
                 <Linkedin size={22} />
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-500 dark:text-gray-400 dark:hover:text-blue-400 transition-colors">
+              <a href="https://x.com/ShivanshMa58143" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-500 dark:text-gray-400 dark:hover:text-blue-400 transition-colors">
                 <Twitter size={22} />
               </a>
             </div>
@@ -161,16 +161,16 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col items-center md:flex-row md:justify-between">
             <p className="text-gray-600 dark:text-gray-400 mb-4 md:mb-0">
-              © {new Date().getFullYear()} YourName. All rights reserved.
+              © {new Date().getFullYear()} All rights reserved.
             </p>
             <div className="flex space-x-6">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-500 dark:text-gray-400 dark:hover:text-blue-400 transition-colors">
+              <a href="https://github.com/Quantumdevlpr" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-500 dark:text-gray-400 dark:hover:text-blue-400 transition-colors">
                 <Github size={22} />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-500 dark:text-gray-400 dark:hover:text-blue-400 transition-colors">
+              <a href="https://www.linkedin.com/in/shivansh-maurya-a79128220/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-500 dark:text-gray-400 dark:hover:text-blue-400 transition-colors">
                 <Linkedin size={22} />
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-500 dark:text-gray-400 dark:hover:text-blue-400 transition-colors">
+              <a href="https://x.com/ShivanshMa58143" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-500 dark:text-gray-400 dark:hover:text-blue-400 transition-colors">
                 <Twitter size={22} />
               </a>
             </div>

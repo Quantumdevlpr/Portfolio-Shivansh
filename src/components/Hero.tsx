@@ -30,7 +30,7 @@ const Hero: React.FC = () => {
             <div className="space-y-6">
               <div className="space-y-2">
                 <h2 className="text-xl md:text-2xl font-medium text-blue-600 dark:text-blue-400">
-                  Hello, I'm
+                Hello, I'm
                 </h2>
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-gray-900 dark:text-white">
                   <span className="block">Shivansh Maurya</span>
