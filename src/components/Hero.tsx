@@ -35,17 +35,20 @@ const Hero: React.FC = () => {
                 <h2 className="text-lg sm:text-xl md:text-2xl font-medium text-blue-600 dark:text-blue-400">
                   Hello, I'm
                 </h2>
-                <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight 
-                               text-gray-900 dark:text-white leading-tight">
-                  <span className="block">Shivansh Maurya</span>
-                  <span className="block mt-1 text-blue-600 dark:text-blue-400">
-                    <span className="inline-block mr-3 relative overflow-hidden">
-                      <span className="animate-typewriter inline-block relative after:content-['|'] after:ml-1 after:animate-cursor">
-                        Web and Mobile Developer
-                      </span>
-                    </span>
-                  </span>
-                </h1>
+               <h1
+  className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold tracking-tight 
+             text-gray-900 dark:text-white leading-tight break-words"
+>
+  <span className="block">Shivansh Maurya</span>
+  <span className="block mt-1 text-blue-600 dark:text-blue-400">
+    <span className="inline-block mr-3 relative overflow-hidden">
+      <span className="animate-typewriter inline-block relative after:content-['|'] after:ml-1 after:animate-cursor">
+        Web and Mobile Developer
+      </span>
+    </span>
+  </span>
+</h1>
+
               </div>
               
               <p className="text-base sm:text-lg text-gray-600 dark:text-gray-300 
