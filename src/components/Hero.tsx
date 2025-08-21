@@ -75,7 +75,7 @@ const Hero: React.FC = () => {
           </div>
           
           <div className="order-1 md:order-2 flex justify-center relative">
-            <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-blue-100 dark:bg-blue-900/20 flex items-center justify-center relative overflow-hidden shadow-xl">
+            <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-blue-100 dark:bg-blue-900/20 flex items-center   justify-center relative overflow-hidden shadow-xl">
               <img 
                 src="https://res.cloudinary.com/dvcwzd8ri/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1747650885/WhatsApp_Image_2025-05-17_at_11.33.57_bd8e5379_qwv60b.jpg"
                 alt="Profile"
@@ -92,12 +92,10 @@ const Hero: React.FC = () => {
           </div>
         </div>
       </div>
-      
       <button 
         className="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-gray-600 dark:text-gray-400 animate-bounce"
         onClick={handleScrollDown}
-        aria-label="Scroll down"
-      >
+        aria-label="Scroll down">
         <ArrowDown size={28} />
       </button>
     </section>

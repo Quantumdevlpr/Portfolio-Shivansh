@@ -32,11 +32,9 @@ const About: React.FC = () => {
               </h3>
               
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                With over X years of experience in web development, I specialize in creating 
-                responsive, user-friendly applications that solve real-world problems. My journey 
-                in technology started when I built my first website at the age of Y, and I've 
-                been hooked ever since.
-              </p>
+  Web developer with 2+ years of experience building responsive, dynamic applications using HTML, CSS, JavaScript, and React. Skilled in API integration, backend connectivity, and deployment, with a focus on creating scalable, user-friendly solutions while continuously learning modern web technologies.
+</p>
+
               
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
                 I believe that great design and clean code go hand in hand. My approach combines 
@@ -46,7 +44,7 @@ const About: React.FC = () => {
               
               <div className="pt-4">
                 <a 
-                  href="https://console.cloudinary.com/console/c-f3d7772b800bdc640b61ae5b3befdc/media_library/asset/0aa52312f53f3a865315f41d92e9017f/manage" 
+                  href="https://collection.cloudinary.com/dvoned9mv/7e766263d9d22c365b1f4c0ca6ffa86b" 
                   className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-md font-medium transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
                   target="_blank"
                   rel="noopener noreferrer"

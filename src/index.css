@@ -78,18 +78,3 @@
   transition-delay: 600ms;
 }
 
-@keyframes flickerTypewriter {
-  0% { opacity: 0; }
-  10% { opacity: 0.5; }
-  20% { opacity: 1; }
-  25% { opacity: 0.4; }
-  30% { opacity: 1; }
-  50% { opacity: 0.7; }
-  100% { opacity: 1; }
-}
-
-.animate-flicker-typewriter {
-  animation: flickerTypewriter 3s steps(22) forwards;
-  white-space: nowrap;
-  overflow: hidden;
-}
