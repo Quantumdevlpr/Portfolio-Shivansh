@@ -15,9 +15,9 @@ interface Project {
 const projectsData: Project[] = [
   {
     id: 'project1',
-    title: 'E-Commerce Platform',
-    description: 'A full-featured online store with payment processing, inventory management, and an admin dashboard.',
-    image: 'https://images.pexels.com/photos/6956187/pexels-photo-6956187.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    title: 'Flash Devs',
+    description: 'A full-featured online education platform where users can create and share flashcards.',
+    image: 'https://res.cloudinary.com/dvoned9mv/image/upload/v1740809667/fuou56hzmflvmash5ui4.png',
     technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
     githubUrl: 'https://github.com',
     liveUrl: 'https://example.com'
